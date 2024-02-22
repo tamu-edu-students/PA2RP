@@ -68,4 +68,5 @@ group :test do
 end
 group :production do
   gem 'pg' # for Heroku deployment
+  gem 'sqlite3'
 end
